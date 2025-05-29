@@ -135,12 +135,13 @@ function App() {
         }}>
           <input
             type="text"
-            placeholder="Try searching for anything..."
+            placeholder="Try searching for demo's thing..."
             value={query}
             onChange={e => setQuery(e.target.value)}
             onFocus={() => setIsFocused(true)}
             onBlur={() => setIsFocused(false)}
             style={{
+              
               padding: '1.25rem 1.5rem 1.25rem 3.5rem',
               width: '100%',
               fontSize: '1.1rem',
@@ -152,7 +153,7 @@ function App() {
               transition: 'all 0.3s ease',
               outline: 'none',
               background: 'rgba(255, 255, 255, 0.9)',
-              backdropFilter: 'blur(5px)'
+              backdropFilter: 'blur(5px)' , color:'black'
             }}
           />
           <svg
